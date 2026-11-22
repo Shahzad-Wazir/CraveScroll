@@ -2,6 +2,9 @@
 
 **CraveScroll** (*Discover Food. Watch It. Crave It. Order It.*) is a full-stack MERN food discovery and delivery platform that blends restaurant menu ordering with vertical short-video food reels. Customers can explore kitchens, watch short dish reels, add items straight to their cart, and track live doorstep deliveries, while Restaurants and Delivery Partners manage preparation and fulfillment through dedicated role-based workflows.
 
+**Live Application:** [https://crave-scroll-topaz.vercel.app/](https://crave-scroll-topaz.vercel.app/)  
+*(Note: The backend is hosted on Render's free tier, so the first request after inactivity may take ~30–50 seconds to wake up.)*
+
 ---
 
 ## Key Features
