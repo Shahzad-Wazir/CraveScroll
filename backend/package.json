@@ -1,0 +1,39 @@
+{
+  "name": "cravescroll-backend",
+  "version": "2.0.0",
+  "description": "CraveScroll production-hardened MERN short-video food discovery API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node src/db/seed.js",
+    "reconcile": "node src/utils/reconcileCounters.js",
+    "cleanup:media": "node src/utils/cleanupOrphanedMedia.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": ["mern", "express", "mongodb", "cravescroll", "food-reels"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "imagekit": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2",
+    "uuid": "^11.1.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.1.0"
+  }
+}
